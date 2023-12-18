@@ -9,16 +9,20 @@ import UIKit
 
 class ContactsListViewController: UITableViewController {
     
-    private var persons = Person.getUser()
+    var persons = Person.getUser()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        
+        let detailedPersonVC = segue.destination as? DetailedPersonViewController
+        
+        detailedPersonVC?.person = persons[indexPath.row]
+    }
 
 }
 
