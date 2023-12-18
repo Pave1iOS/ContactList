@@ -17,12 +17,10 @@ class DetailedPersonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.tintColor = .darkGray
         title = person.description
-        navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.largeTitleTextAttributes = 
-        [.foregroundColor: UIColor.white]
-        phoneNumberLabel.text = person.phoneNumber
-        emailLabel.text = person.email
+        phoneNumberLabel.text = "phone: \(person.phoneNumber)"
+        emailLabel.text = "email: \(person.email)"
 
     }
 }

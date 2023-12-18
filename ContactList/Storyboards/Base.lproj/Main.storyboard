@@ -50,43 +50,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Kh2-rs-yAj">
-                                <rect key="frame" x="16" y="175" width="361" height="74.333333333333314"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="GHU-We-uEY">
+                                <rect key="frame" x="16" y="175" width="361" height="71.333333333333314"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="xmY-IY-O9U">
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ii2-kM-PlJ">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="33.666666666666664"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="blH-hR-PXB">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YUl-Qf-jYE">
                                                 <rect key="frame" x="0.0" y="1.6666666666666643" width="19.666666666666668" height="31"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="33.670000000000002" id="AIo-eb-C3t"/>
-                                                    <constraint firstAttribute="width" constant="19.670000000000002" id="H5U-IT-WsZ"/>
+                                                    <constraint firstAttribute="width" constant="19.670000000000002" id="diO-3n-MSN"/>
+                                                    <constraint firstAttribute="height" constant="33.670000000000002" id="zuQ-sz-JlQ"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ray-4O-MMa">
-                                                <rect key="frame" x="40.666666666666657" y="0.0" width="320.33333333333337" height="33.666666666666664"/>
+                                                <rect key="frame" x="27.666666666666657" y="0.0" width="333.33333333333337" height="33.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ZCk-8d-2dR">
-                                        <rect key="frame" x="0.0" y="40.666666666666657" width="361" height="33.666666666666657"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fm0-kq-xsG">
+                                        <rect key="frame" x="0.0" y="37.666666666666657" width="361" height="33.666666666666657"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="at.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a4G-zk-ngG">
-                                                <rect key="frame" x="0.0" y="0.99999999999999645" width="19.666666666666668" height="32.333333333333329"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="at" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tnb-sd-ap7">
+                                                <rect key="frame" x="0.0" y="1" width="20" height="33"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="19.670000000000002" id="biM-u4-eei"/>
-                                                    <constraint firstAttribute="height" constant="33.670000000000002" id="jJd-91-o4L"/>
+                                                    <constraint firstAttribute="height" constant="33.670000000000002" id="Vyr-9T-Slf"/>
+                                                    <constraint firstAttribute="width" constant="20" id="bdD-97-Hhg"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c00-p4-eaX">
-                                                <rect key="frame" x="40.666666666666657" y="0.0" width="320.33333333333337" height="33.666666666666664"/>
+                                                <rect key="frame" x="28" y="0.0" width="333" height="33.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -95,12 +95,12 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xf0-lE-yAR"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="tintColor"/>
                         <constraints>
-                            <constraint firstItem="Xf0-lE-yAR" firstAttribute="trailing" secondItem="Kh2-rs-yAj" secondAttribute="trailing" constant="16" id="5Z8-FR-V8x"/>
-                            <constraint firstItem="Kh2-rs-yAj" firstAttribute="leading" secondItem="Xf0-lE-yAR" secondAttribute="leading" constant="16" id="cAA-08-2JF"/>
-                            <constraint firstItem="Kh2-rs-yAj" firstAttribute="top" secondItem="Xf0-lE-yAR" secondAttribute="top" constant="20" id="s9B-70-3NS"/>
+                            <constraint firstItem="Xf0-lE-yAR" firstAttribute="trailing" secondItem="GHU-We-uEY" secondAttribute="trailing" constant="16" id="f38-kP-16t"/>
+                            <constraint firstItem="GHU-We-uEY" firstAttribute="top" secondItem="Xf0-lE-yAR" secondAttribute="top" constant="20" id="lcs-LW-bjc"/>
+                            <constraint firstItem="GHU-We-uEY" firstAttribute="leading" secondItem="Xf0-lE-yAR" secondAttribute="leading" constant="16" id="wdt-jJ-JEG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XRa-Z7-vLd"/>
@@ -120,6 +120,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Jm5-w1-pbu">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="jDL-Zg-wxy" kind="relationship" relationship="rootViewController" id="mbS-PB-sWu"/>
@@ -131,7 +134,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="at.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="at" catalog="system" width="128" height="125"/>
         <image name="phone.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
