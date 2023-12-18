@@ -16,6 +16,8 @@
 		46A201DA2B2F234B0019729F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A201D92B2F234B0019729F /* Person.swift */; };
 		46A201DD2B2F25730019729F /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A201DC2B2F25730019729F /* DataStore.swift */; };
 		46A201DF2B3098580019729F /* DetailedPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A201DE2B3098570019729F /* DetailedPersonViewController.swift */; };
+		46A201E12B30B5350019729F /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A201E02B30B5350019729F /* SectionViewController.swift */; };
+		46A201E52B30B7D70019729F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A201E42B30B7D70019729F /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		46A201D92B2F234B0019729F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		46A201DC2B2F25730019729F /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		46A201DE2B3098570019729F /* DetailedPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPersonViewController.swift; sourceTree = "<group>"; };
+		46A201E02B30B5350019729F /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		46A201E42B30B7D70019729F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			children = (
 				46A201C62B2F22D90019729F /* ContactsListViewController.swift */,
 				46A201DE2B3098570019729F /* DetailedPersonViewController.swift */,
+				46A201E02B30B5350019729F /* SectionViewController.swift */,
+				46A201E42B30B7D70019729F /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A201E52B30B7D70019729F /* TabBarViewController.swift in Sources */,
 				46A201C72B2F22D90019729F /* ContactsListViewController.swift in Sources */,
 				46A201DF2B3098580019729F /* DetailedPersonViewController.swift in Sources */,
+				46A201E12B30B5350019729F /* SectionViewController.swift in Sources */,
 				46A201C32B2F22D90019729F /* AppDelegate.swift in Sources */,
 				46A201C52B2F22D90019729F /* SceneDelegate.swift in Sources */,
 				46A201DD2B2F25730019729F /* DataStore.swift in Sources */,

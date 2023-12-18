@@ -7,29 +7,19 @@
 
 import UIKit
 
-class ContactsListViewController: UITableViewController {
+final class ContactsListViewController: UITableViewController {
     
-    var persons = Person.getUser()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        
-    }
+    var persons: [Person]!
     
+    // MARK: navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         
         let detailedPersonVC = segue.destination as? DetailedPersonViewController
-        
         detailedPersonVC?.person = persons[indexPath.row]
     }
-
-}
-
-// MARK: ContactsListViewControllerDataSource
-extension ContactsListViewController {
+    
+    // MARK: data source methods
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count
     }
@@ -42,3 +32,6 @@ extension ContactsListViewController {
         return cell
     }
 }
+
+
+
